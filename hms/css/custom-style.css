@@ -1,0 +1,22 @@
+.big-banner{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/bg.jpg');
+    
+}
+.carousel-caption{
+    margin:2cm;
+    
+}
+.carousel-item {
+    height : 77vh;
+}
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right:0;
+    background: #000;
+    opacity: 0.6;
+}
